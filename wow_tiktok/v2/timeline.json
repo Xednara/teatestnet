@@ -1,943 +1,943 @@
 {
  "fps": 30,
- "total": 41.086,
+ "total": 41.773,
  "scenes": [
   {
    "key": "hook",
    "start": 0.0,
-   "dur": 3.7,
+   "dur": 3.551,
    "words": [
     {
      "w": "Diese",
      "t0": 0.35,
-     "t1": 0.642,
+     "t1": 0.632,
      "emph": false,
      "line": 0,
      "end": false
     },
     {
      "w": "WoW-Fakten",
-     "t0": 0.642,
-     "t1": 1.1,
+     "t0": 0.632,
+     "t1": 1.076,
      "emph": true,
      "line": 0,
      "end": false
     },
     {
      "w": "klingen",
-     "t0": 1.1,
-     "t1": 1.475,
+     "t0": 1.076,
+     "t1": 1.439,
      "emph": false,
      "line": 0,
      "end": false
     },
     {
      "w": "erfunden…",
-     "t0": 1.475,
-     "t1": 2.017,
+     "t0": 1.439,
+     "t1": 1.963,
      "emph": true,
      "line": 0,
      "end": true
     },
     {
      "w": "…aber",
-     "t0": 2.137,
-     "t1": 2.346,
+     "t0": 2.083,
+     "t1": 2.274,
      "emph": false,
      "line": 1,
      "end": false
     },
     {
      "w": "sie",
-     "t0": 2.346,
-     "t1": 2.519,
+     "t0": 2.274,
+     "t1": 2.433,
      "emph": false,
      "line": 1,
      "end": false
     },
     {
      "w": "sind",
-     "t0": 2.519,
-     "t1": 2.728,
+     "t0": 2.433,
+     "t1": 2.624,
      "emph": false,
      "line": 1,
      "end": false
     },
     {
      "w": "alle",
-     "t0": 2.728,
-     "t1": 2.937,
+     "t0": 2.624,
+     "t1": 2.815,
      "emph": true,
      "line": 1,
      "end": false
     },
     {
      "w": "wahr.",
-     "t0": 2.937,
-     "t1": 3.25,
+     "t0": 2.815,
+     "t1": 3.101,
      "emph": false,
      "line": 1,
      "end": true
     }
    ],
    "ev": {
-    "erf": 1.475
+    "erf": 1.439
    }
   },
   {
    "key": "plague",
-   "start": 3.7,
-   "dur": 7.766,
+   "start": 3.551,
+   "dur": 8.111,
    "words": [
     {
      "w": "2005",
-     "t0": 4.05,
-     "t1": 4.344,
+     "t0": 3.901,
+     "t1": 4.22,
      "emph": false,
      "line": 0,
      "end": false
     },
     {
      "w": "brach",
-     "t0": 4.344,
-     "t1": 4.688,
+     "t0": 4.22,
+     "t1": 4.592,
      "emph": false,
      "line": 0,
      "end": false
     },
     {
      "w": "in",
-     "t0": 4.688,
-     "t1": 4.885,
+     "t0": 4.592,
+     "t1": 4.804,
      "emph": false,
      "line": 0,
      "end": false
     },
     {
      "w": "WoW",
-     "t0": 4.885,
-     "t1": 5.13,
+     "t0": 4.804,
+     "t1": 5.07,
      "emph": false,
      "line": 0,
      "end": false
     },
     {
      "w": "eine",
-     "t0": 5.13,
-     "t1": 5.425,
+     "t0": 5.07,
+     "t1": 5.389,
      "emph": false,
      "line": 0,
      "end": false
     },
     {
      "w": "echte",
-     "t0": 5.425,
-     "t1": 5.769,
+     "t0": 5.389,
+     "t1": 5.761,
      "emph": false,
      "line": 0,
      "end": false
     },
     {
      "w": "Seuche",
-     "t0": 5.769,
-     "t1": 6.161,
+     "t0": 5.761,
+     "t1": 6.186,
      "emph": true,
      "line": 0,
      "end": false
     },
     {
      "w": "aus.",
-     "t0": 6.161,
-     "t1": 6.554,
+     "t0": 6.186,
+     "t1": 6.611,
      "emph": false,
      "line": 0,
      "end": true
     },
     {
      "w": "Ganze",
-     "t0": 6.674,
-     "t1": 6.929,
+     "t0": 6.731,
+     "t1": 7.008,
      "emph": false,
      "line": 1,
      "end": false
     },
     {
      "w": "Hauptstädte",
-     "t0": 6.929,
-     "t1": 7.401,
+     "t0": 7.008,
+     "t1": 7.523,
      "emph": false,
      "line": 1,
      "end": false
     },
     {
      "w": "lagen",
-     "t0": 7.401,
-     "t1": 7.655,
+     "t0": 7.523,
+     "t1": 7.8,
      "emph": false,
      "line": 1,
      "end": false
     },
     {
      "w": "voller",
-     "t0": 7.655,
-     "t1": 7.946,
+     "t0": 7.8,
+     "t1": 8.117,
      "emph": false,
      "line": 1,
      "end": false
     },
     {
      "w": "Leichen.",
-     "t0": 7.946,
-     "t1": 8.382,
+     "t0": 8.117,
+     "t1": 8.592,
      "emph": true,
      "line": 1,
      "end": true
     },
     {
      "w": "Forscher",
-     "t0": 8.502,
-     "t1": 8.928,
+     "t0": 8.712,
+     "t1": 9.136,
      "emph": false,
      "line": 2,
      "end": false
     },
     {
      "w": "nutzen",
-     "t0": 8.928,
-     "t1": 9.269,
+     "t0": 9.136,
+     "t1": 9.475,
      "emph": false,
      "line": 2,
      "end": false
     },
     {
      "w": "sie",
-     "t0": 9.269,
-     "t1": 9.482,
+     "t0": 9.475,
+     "t1": 9.687,
      "emph": false,
      "line": 2,
      "end": false
     },
     {
      "w": "bis",
-     "t0": 9.482,
-     "t1": 9.695,
+     "t0": 9.687,
+     "t1": 9.899,
      "emph": false,
      "line": 2,
      "end": false
     },
     {
      "w": "heute",
-     "t0": 9.695,
-     "t1": 9.993,
+     "t0": 9.899,
+     "t1": 10.195,
      "emph": false,
      "line": 2,
      "end": false
     },
     {
      "w": "als",
-     "t0": 9.993,
-     "t1": 10.206,
+     "t0": 10.195,
+     "t1": 10.407,
      "emph": false,
      "line": 2,
      "end": false
     },
     {
      "w": "Pandemie-Modell.",
-     "t0": 10.206,
-     "t1": 11.015,
+     "t0": 10.407,
+     "t1": 11.212,
      "emph": true,
      "line": 2,
      "end": true
     }
    ],
    "ev": {
-    "leichen": 7.946,
-    "forscher": 8.502
+    "leichen": 8.117,
+    "forscher": 8.712
    }
   },
   {
    "key": "leeroy",
-   "start": 11.465,
-   "dur": 7.282,
+   "start": 11.662,
+   "dur": 7.361,
    "words": [
     {
      "w": "Ein",
-     "t0": 11.815,
-     "t1": 11.99,
+     "t0": 12.012,
+     "t1": 12.196,
      "emph": false,
      "line": 0,
      "end": false
     },
     {
      "w": "Spieler",
-     "t0": 11.99,
-     "t1": 12.304,
+     "t0": 12.196,
+     "t1": 12.525,
      "emph": false,
      "line": 0,
      "end": false
     },
     {
      "w": "rannte",
-     "t0": 12.304,
-     "t1": 12.584,
+     "t0": 12.525,
+     "t1": 12.818,
      "emph": false,
      "line": 0,
      "end": false
     },
     {
      "w": "einfach",
-     "t0": 12.584,
-     "t1": 12.898,
+     "t0": 12.818,
+     "t1": 13.148,
      "emph": false,
      "line": 0,
      "end": false
     },
     {
      "w": "los:",
-     "t0": 12.898,
-     "t1": 13.178,
+     "t0": 13.148,
+     "t1": 13.441,
      "emph": false,
      "line": 0,
      "end": true
     },
     {
      "w": "LEEROY",
-     "t0": 13.298,
-     "t1": 13.753,
+     "t0": 13.561,
+     "t1": 14.033,
      "emph": true,
      "line": 1,
      "end": false
     },
     {
      "w": "JENKINS!",
-     "t0": 13.753,
-     "t1": 14.265,
+     "t0": 14.033,
+     "t1": 14.563,
      "emph": true,
      "line": 1,
      "end": false
     },
     {
      "w": "Seine",
-     "t0": 14.385,
-     "t1": 14.714,
+     "t0": 14.683,
+     "t1": 15.022,
      "emph": false,
      "line": 2,
      "end": false
     },
     {
      "w": "Gruppe?",
-     "t0": 14.714,
-     "t1": 15.232,
+     "t0": 15.022,
+     "t1": 15.553,
      "emph": false,
      "line": 2,
      "end": true
     },
     {
      "w": "Ausgelöscht.",
-     "t0": 15.232,
-     "t1": 15.843,
+     "t0": 15.553,
+     "t1": 16.182,
      "emph": true,
      "line": 2,
      "end": false
     },
     {
      "w": "Und",
-     "t0": 15.963,
-     "t1": 16.158,
+     "t0": 16.302,
+     "t1": 16.491,
      "emph": false,
      "line": 3,
      "end": false
     },
     {
      "w": "das",
-     "t0": 16.158,
-     "t1": 16.352,
+     "t0": 16.491,
+     "t1": 16.681,
      "emph": false,
      "line": 3,
      "end": false
     },
     {
      "w": "Internet",
-     "t0": 16.352,
-     "t1": 16.741,
+     "t0": 16.681,
+     "t1": 17.059,
      "emph": false,
      "line": 3,
      "end": false
     },
     {
      "w": "hatte",
-     "t0": 16.741,
-     "t1": 17.014,
+     "t0": 17.059,
+     "t1": 17.324,
      "emph": false,
      "line": 3,
      "end": false
     },
     {
      "w": "eines",
-     "t0": 17.014,
-     "t1": 17.286,
+     "t0": 17.324,
+     "t1": 17.589,
      "emph": false,
      "line": 3,
      "end": false
     },
     {
      "w": "seiner",
-     "t0": 17.286,
-     "t1": 17.597,
+     "t0": 17.589,
+     "t1": 17.892,
      "emph": false,
      "line": 3,
      "end": false
     },
     {
      "w": "ersten",
-     "t0": 17.597,
-     "t1": 17.909,
+     "t0": 17.892,
+     "t1": 18.195,
      "emph": false,
      "line": 3,
      "end": false
     },
     {
      "w": "Memes.",
-     "t0": 17.909,
-     "t1": 18.298,
+     "t0": 18.195,
+     "t1": 18.574,
      "emph": true,
      "line": 3,
      "end": true
     }
    ],
    "ev": {
-    "leeroy": 13.298,
-    "gruppe": 14.385,
-    "wipe": 15.232,
-    "meme": 15.963
+    "leeroy": 13.561,
+    "gruppe": 14.683,
+    "wipe": 15.553,
+    "meme": 16.302
    }
   },
   {
    "key": "subs",
-   "start": 18.748,
-   "dur": 5.955,
+   "start": 19.024,
+   "dur": 5.895,
    "words": [
     {
      "w": "2010",
-     "t0": 19.098,
-     "t1": 19.397,
+     "t0": 19.374,
+     "t1": 19.67,
      "emph": false,
      "line": 0,
      "end": false
     },
     {
      "w": "zahlten",
-     "t0": 19.397,
-     "t1": 19.845,
+     "t0": 19.67,
+     "t1": 20.113,
      "emph": false,
      "line": 0,
      "end": false
     },
     {
      "w": "über",
-     "t0": 19.845,
-     "t1": 20.144,
+     "t0": 20.113,
+     "t1": 20.409,
      "emph": false,
      "line": 0,
      "end": false
     },
     {
      "w": "12",
-     "t0": 20.144,
-     "t1": 20.344,
+     "t0": 20.409,
+     "t1": 20.606,
      "emph": true,
      "line": 0,
      "end": false
     },
     {
      "w": "Millionen",
-     "t0": 20.344,
-     "t1": 20.892,
+     "t0": 20.606,
+     "t1": 21.149,
      "emph": true,
      "line": 0,
      "end": false
     },
     {
      "w": "Menschen",
-     "t0": 20.892,
-     "t1": 21.39,
+     "t0": 21.149,
+     "t1": 21.642,
      "emph": false,
      "line": 0,
      "end": false
     },
     {
      "w": "für",
-     "t0": 21.39,
-     "t1": 21.639,
+     "t0": 21.642,
+     "t1": 21.888,
      "emph": false,
      "line": 0,
      "end": false
     },
     {
      "w": "WoW.",
-     "t0": 21.639,
-     "t1": 22.038,
+     "t0": 21.888,
+     "t1": 22.282,
      "emph": false,
      "line": 0,
      "end": true
     },
     {
      "w": "Mehr",
-     "t0": 22.158,
-     "t1": 22.414,
+     "t0": 22.402,
+     "t1": 22.655,
      "emph": false,
      "line": 1,
      "end": false
     },
     {
      "w": "als",
-     "t0": 22.414,
-     "t1": 22.628,
+     "t0": 22.655,
+     "t1": 22.866,
      "emph": false,
      "line": 1,
      "end": false
     },
     {
      "w": "Belgien",
-     "t0": 22.628,
-     "t1": 23.013,
+     "t0": 22.866,
+     "t1": 23.246,
      "emph": false,
      "line": 1,
      "end": false
     },
     {
      "w": "damals",
-     "t0": 23.013,
-     "t1": 23.355,
+     "t0": 23.246,
+     "t1": 23.583,
      "emph": false,
      "line": 1,
      "end": false
     },
     {
      "w": "Einwohner",
-     "t0": 23.355,
-     "t1": 23.825,
+     "t0": 23.583,
+     "t1": 24.047,
      "emph": true,
      "line": 1,
      "end": false
     },
     {
      "w": "hatte.",
-     "t0": 23.825,
-     "t1": 24.253,
+     "t0": 24.047,
+     "t1": 24.469,
      "emph": false,
      "line": 1,
      "end": true
     }
    ],
    "ev": {
-    "belgien": 22.158
+    "belgien": 22.402
    }
   },
   {
    "key": "funeral",
-   "start": 24.703,
-   "dur": 6.411,
+   "start": 24.919,
+   "dur": 6.697,
    "words": [
     {
      "w": "Spieler",
-     "t0": 25.053,
-     "t1": 25.419,
+     "t0": 25.269,
+     "t1": 25.661,
      "emph": false,
      "line": 0,
      "end": false
     },
     {
      "w": "trauerten",
-     "t0": 25.419,
-     "t1": 25.866,
+     "t0": 25.661,
+     "t1": 26.14,
      "emph": false,
      "line": 0,
      "end": false
     },
     {
      "w": "im",
-     "t0": 25.866,
-     "t1": 26.029,
-     "emph": false,
-     "line": 0,
-     "end": false
-    },
-    {
-     "w": "Spiel",
-     "t0": 26.029,
+     "t0": 26.14,
      "t1": 26.314,
      "emph": false,
      "line": 0,
      "end": false
     },
     {
-     "w": "um",
+     "w": "Spiel",
      "t0": 26.314,
-     "t1": 26.477,
+     "t1": 26.619,
+     "emph": false,
+     "line": 0,
+     "end": false
+    },
+    {
+     "w": "um",
+     "t0": 26.619,
+     "t1": 26.793,
      "emph": false,
      "line": 0,
      "end": false
     },
     {
      "w": "eine",
-     "t0": 26.477,
-     "t1": 26.721,
+     "t0": 26.793,
+     "t1": 27.054,
      "emph": false,
      "line": 0,
      "end": false
     },
     {
      "w": "echte",
-     "t0": 26.721,
-     "t1": 27.006,
+     "t0": 27.054,
+     "t1": 27.359,
      "emph": true,
      "line": 0,
      "end": false
     },
     {
      "w": "verstorbene",
-     "t0": 27.006,
-     "t1": 27.535,
+     "t0": 27.359,
+     "t1": 27.925,
      "emph": false,
      "line": 0,
      "end": false
     },
     {
      "w": "Mitspielerin.",
-     "t0": 27.535,
-     "t1": 28.227,
+     "t0": 27.925,
+     "t1": 28.665,
      "emph": false,
      "line": 0,
      "end": true
     },
     {
      "w": "Dann",
-     "t0": 28.347,
-     "t1": 28.574,
+     "t0": 28.785,
+     "t1": 29.02,
      "emph": false,
      "line": 1,
      "end": false
     },
     {
      "w": "stürmte",
-     "t0": 28.574,
-     "t1": 28.916,
+     "t0": 29.02,
+     "t1": 29.371,
      "emph": false,
      "line": 1,
      "end": false
     },
     {
      "w": "eine",
-     "t0": 28.916,
-     "t1": 29.144,
+     "t0": 29.371,
+     "t1": 29.605,
      "emph": false,
      "line": 1,
      "end": false
     },
     {
      "w": "feindliche",
-     "t0": 29.144,
-     "t1": 29.6,
+     "t0": 29.605,
+     "t1": 30.073,
      "emph": false,
      "line": 1,
      "end": false
     },
     {
      "w": "Gilde",
-     "t0": 29.6,
-     "t1": 29.866,
+     "t0": 30.073,
+     "t1": 30.347,
      "emph": false,
      "line": 1,
      "end": false
     },
     {
      "w": "die",
-     "t0": 29.866,
-     "t1": 30.055,
+     "t0": 30.347,
+     "t1": 30.542,
      "emph": false,
      "line": 1,
      "end": false
     },
     {
      "w": "Trauerfeier.",
-     "t0": 30.055,
-     "t1": 30.663,
+     "t0": 30.542,
+     "t1": 31.166,
      "emph": true,
      "line": 1,
      "end": true
     }
    ],
    "ev": {
-    "attack": 28.347
+    "attack": 28.785
    }
   },
   {
    "key": "years",
-   "start": 31.113,
-   "dur": 5.045,
+   "start": 31.616,
+   "dur": 5.215,
    "words": [
     {
      "w": "WoW",
-     "t0": 31.463,
-     "t1": 31.67,
+     "t0": 31.966,
+     "t1": 32.174,
      "emph": false,
      "line": 0,
      "end": false
     },
     {
      "w": "läuft",
-     "t0": 31.67,
-     "t1": 31.96,
+     "t0": 32.174,
+     "t1": 32.465,
      "emph": false,
      "line": 0,
      "end": false
     },
     {
      "w": "seit",
-     "t0": 31.96,
-     "t1": 32.209,
+     "t0": 32.465,
+     "t1": 32.714,
      "emph": false,
      "line": 0,
      "end": false
     },
     {
      "w": "über",
-     "t0": 32.209,
-     "t1": 32.457,
+     "t0": 32.714,
+     "t1": 32.964,
      "emph": false,
      "line": 0,
      "end": false
     },
     {
      "w": "20",
-     "t0": 32.457,
-     "t1": 32.623,
+     "t0": 32.964,
+     "t1": 33.13,
      "emph": true,
      "line": 0,
      "end": false
     },
     {
      "w": "Jahren.",
-     "t0": 32.623,
-     "t1": 33.078,
+     "t0": 33.13,
+     "t1": 33.587,
      "emph": true,
      "line": 0,
      "end": true
     },
     {
      "w": "Wer",
-     "t0": 33.198,
-     "t1": 33.38,
+     "t0": 33.707,
+     "t1": 33.901,
      "emph": false,
      "line": 1,
      "end": false
     },
     {
      "w": "damals",
-     "t0": 33.38,
-     "t1": 33.671,
+     "t0": 33.901,
+     "t1": 34.211,
      "emph": false,
      "line": 1,
      "end": false
     },
     {
      "w": "gezockt",
-     "t0": 33.671,
-     "t1": 33.999,
+     "t0": 34.211,
+     "t1": 34.56,
      "emph": false,
      "line": 1,
      "end": false
     },
     {
      "w": "hat,",
-     "t0": 33.999,
-     "t1": 34.289,
+     "t0": 34.56,
+     "t1": 34.87,
      "emph": false,
      "line": 1,
      "end": true
     },
     {
      "w": "zockt",
-     "t0": 34.289,
-     "t1": 34.544,
+     "t0": 34.87,
+     "t1": 35.141,
      "emph": false,
      "line": 1,
      "end": false
     },
     {
      "w": "heute",
-     "t0": 34.544,
-     "t1": 34.799,
+     "t0": 35.141,
+     "t1": 35.413,
      "emph": false,
      "line": 1,
      "end": false
     },
     {
      "w": "mit",
-     "t0": 34.799,
-     "t1": 34.981,
+     "t0": 35.413,
+     "t1": 35.606,
      "emph": false,
      "line": 1,
      "end": false
     },
     {
      "w": "seinen",
-     "t0": 34.981,
-     "t1": 35.272,
+     "t0": 35.606,
+     "t1": 35.916,
      "emph": false,
      "line": 1,
      "end": false
     },
     {
      "w": "Kindern.",
-     "t0": 35.272,
-     "t1": 35.708,
+     "t0": 35.916,
+     "t1": 36.382,
      "emph": true,
      "line": 1,
      "end": true
     }
    ],
    "ev": {
-    "kids": 33.198
+    "kids": 33.707
    }
   },
   {
    "key": "outro",
-   "start": 36.158,
-   "dur": 4.728,
+   "start": 36.832,
+   "dur": 4.741,
    "words": [
     {
      "w": "Welcher",
-     "t0": 36.508,
-     "t1": 36.817,
+     "t0": 37.182,
+     "t1": 37.485,
      "emph": false,
      "line": 0,
      "end": false
     },
     {
      "w": "Fakt",
-     "t0": 36.817,
-     "t1": 37.022,
+     "t0": 37.485,
+     "t1": 37.687,
      "emph": false,
      "line": 0,
      "end": false
     },
     {
      "w": "war",
-     "t0": 37.022,
-     "t1": 37.194,
+     "t0": 37.687,
+     "t1": 37.856,
      "emph": false,
      "line": 0,
      "end": false
     },
     {
      "w": "neu",
-     "t0": 37.194,
-     "t1": 37.365,
+     "t0": 37.856,
+     "t1": 38.025,
      "emph": true,
      "line": 0,
      "end": false
     },
     {
      "w": "für",
-     "t0": 37.365,
-     "t1": 37.536,
+     "t0": 38.025,
+     "t1": 38.193,
      "emph": false,
      "line": 0,
      "end": false
     },
     {
      "w": "dich?",
-     "t0": 37.536,
-     "t1": 37.845,
+     "t0": 38.193,
+     "t1": 38.497,
      "emph": false,
      "line": 0,
      "end": true
     },
     {
      "w": "Schreib's",
-     "t0": 37.965,
-     "t1": 38.285,
+     "t0": 38.617,
+     "t1": 38.953,
      "emph": false,
      "line": 1,
      "end": false
     },
     {
      "w": "in",
-     "t0": 38.285,
-     "t1": 38.413,
+     "t0": 38.953,
+     "t1": 39.087,
      "emph": false,
      "line": 1,
      "end": false
     },
     {
      "w": "die",
-     "t0": 38.413,
-     "t1": 38.572,
+     "t0": 39.087,
+     "t1": 39.255,
      "emph": false,
      "line": 1,
      "end": false
     },
     {
      "w": "Kommentare",
-     "t0": 38.572,
-     "t1": 38.956,
+     "t0": 39.255,
+     "t1": 39.659,
      "emph": false,
      "line": 1,
      "end": false
     },
     {
      "w": "–",
-     "t0": 38.956,
-     "t1": 39.116,
+     "t0": 39.659,
+     "t1": 39.827,
      "emph": false,
      "line": 1,
      "end": true
     },
     {
      "w": "und",
-     "t0": 39.236,
-     "t1": 39.451,
+     "t0": 39.947,
+     "t1": 40.157,
      "emph": false,
      "line": 2,
      "end": false
     },
     {
      "w": "folg",
-     "t0": 39.451,
-     "t1": 39.708,
+     "t0": 40.157,
+     "t1": 40.409,
      "emph": false,
      "line": 2,
      "end": false
     },
     {
      "w": "für",
-     "t0": 39.708,
-     "t1": 39.922,
+     "t0": 40.409,
+     "t1": 40.619,
      "emph": false,
      "line": 2,
      "end": false
     },
     {
      "w": "Teil",
-     "t0": 39.922,
-     "t1": 40.179,
+     "t0": 40.619,
+     "t1": 40.871,
      "emph": true,
      "line": 2,
      "end": false
     },
     {
      "w": "2!",
-     "t0": 40.179,
-     "t1": 40.436,
+     "t0": 40.871,
+     "t1": 41.123,
      "emph": true,
      "line": 2,
      "end": true
     }
    ],
    "ev": {
-    "follow": 39.236
+    "follow": 39.947
    }
   }
  ]

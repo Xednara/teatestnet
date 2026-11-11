@@ -1,17 +1,20 @@
 # WoW-TikTok-Videos
 
-## v2 (empfohlen): `wow_fakten_v2.mp4`
-Komplett animiert: Fantasy-Landschaft mit Parallax und Drache, Seuchen-Simulation, Charge durch einen Dungeon-Gang,
-Zahlen-Counter mit Münzregen, Hinterhalt bei der Trauerfeier, Zeitreise-Tunnel. Dazu Wort-für-Wort-Untertitel im TikTok-Stil,
-deutsche Sprecherstimme, epische Musik mit Impacts und Whooshes.
+## v3 (empfohlen): `wow_fakten_v3_3d.mp4`
+Alle Szenen in echtem 3D (three.js): Burg am See mit Drache, Stadtplatz mit Seuche, Dungeon-Gang mit Held,
+Brutstätte mit Drachenschwarm, Menschenmeer mit Fackeln, Trauerfeier am Seeufer, Zeittunnel und Wohnzimmer.
+Mit Licht, Schatten, Nebel, Bloom und Kamerafahrten. Untertitel, Stimme und Musik wie in v2.
 
-- `wow_fakten_v2.mp4`: mit Sprecherstimme (Piper-TTS)
-- `wow_fakten_v2_ohne_stimme.mp4`: nur Musik und SFX, falls du selbst einsprechen oder einen TikTok-Sound nutzen willst
-- 1080×1920, 30 fps, ~41 s, −14 LUFS
+- `wow_fakten_v3_3d.mp4`: mit Sprecherstimme
+- `wow_fakten_v3_3d_ohne_stimme.mp4`: nur Musik und SFX
+- 1080×1920, 30 fps, ~41 s
 
 **Neu bauen:** in `v2/` erst `npm install`, dann `python3 build.py --voice de-thorsten-low.onnx`
 (Stimme: https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-de-thorsten-low.tar.gz, benötigt `pip install piper-tts numpy scipy`).
-Texte stehen in `build.py` (SCRIPT), die Animationen in `index.html`.
+Texte stehen in `build.py` (SCRIPT), die 3D-Szenen in `scene3d.js`, Untertitel und Einblendungen in `index.html`.
+
+## v2: `wow_fakten_v2.mp4`
+Die 2D-Fassung (flach gezeichnete Szenen), ebenfalls mit und ohne Stimme. Der Code in `v2/` erzeugt inzwischen v3.
 
 ## v1: `wow_fakten_tiktok.mp4`
 Einfache Textfolien (Generator: `make_video.py`).
