@@ -392,19 +392,19 @@ function shoreH(x, z) {
   const n = fbm(x * .04 + 2, z * .04 + 9, 4, 2); const d = -2 - z;
   let h = d < 0 ? .25 + (-d) * .04 + n * .7 : -clamp(d * .3, 0, 3);
   h += sstep(15, 55, Math.abs(x)) * (3 + 18 * fbm(x * .02, z * .02, 4, 5)) * (d < 0 ? 1 : sstep(60, 0, d) * .8 + .2);
-  h += sstep(120, 190, -z) * (4 + 60 * Math.pow(1 - Math.abs(2 * fbm(x * .008 + 4, 3, 4, 6) - 1), 2));
+  h += sstep(120, 190, -z) * (3 + 26 * Math.pow(1 - Math.abs(2 * fbm(x * .008 + 4, 3, 4, 6) - 1), 2));
   return h;
 }
 function sceneFuneral() {
   const sc = new THREE.Scene(), fogA = new THREE.Color(0x0e1434), fogB = new THREE.Color(0x3a0606); sc.fog = new THREE.FogExp2(fogA.getHex(), .011);
-  const moonPos = new THREE.Vector3(-45, 62, -430), sky = skyDome(0x02030c, 0x101a48, 0x56659c, 0x8090d0, new THREE.Vector3(-.1, 0, -1), 5), mo = moon(moonPos, 46);
+  const moonPos = new THREE.Vector3(-55, 100, -430), sky = skyDome(0x02030c, 0x101a48, 0x56659c, 0x8090d0, new THREE.Vector3(-.1, 0, -1), 5), mo = moon(moonPos, 46);
   sc.add(sky, stars(1200, 9), mo);
   const g = new THREE.PlaneGeometry(520, 420, 180, 150); g.rotateX(-Math.PI / 2); g.translate(0, 0, -100);
   const p = g.attributes.position, col = new Float32Array(p.count * 3);
   for (let i = 0; i < p.count; i++) { const h = shoreH(p.getX(i), p.getZ(i)); p.setY(i, h); const n = fbm(p.getX(i) * .1, p.getZ(i) * .1, 3, 4); col.set(h > 30 ? [.5, .55, .7] : [.06 + n * .05, .1 + n * .06, .09], i * 3); }
   g.computeVertexNormals(); g.setAttribute('color', new THREE.BufferAttribute(col, 3));
   const ter = mesh(g, std(0xffffff, { vertexColors: true, roughness: 1 })); ter.castShadow = false; sc.add(ter);
-  const water = mesh(new THREE.PlaneGeometry(1400, 1400), new THREE.MeshStandardMaterial({ color: 0x060a18, metalness: 1, roughness: .05, normalMap: waveNormal(), normalScale: new THREE.Vector2(.06, .06), envMapIntensity: 1.2 }), 0, 0, -300, false); water.rotation.x = -Math.PI / 2; sc.add(water);
+  const water = mesh(new THREE.PlaneGeometry(1400, 1400), new THREE.MeshBasicMaterial({ color: 0x8a94b8 }), 0, 0, -300, false); water.rotation.x = -Math.PI / 2; sc.add(water);
   const R = rng(33), tl = []; while (tl.length < 500) { const x = (R() - .5) * 240, z = 40 - R() * 120, h = shoreH(x, z); if (h > .6 && Math.abs(x) > 11 && h < 22) tl.push([x, h - .2, z, 1 + R() * 1.4]); } sc.add(pines(tl, 0x0a1620));
   const stone = std(0x6a6a78, { map: brickTex(1, 1) });
   sc.add(mesh(new THREE.BoxGeometry(2.4, .8, 1.1), stone, 0, .7, -.6), mesh(new THREE.BoxGeometry(3, .25, 1.6), stone, 0, .28, -.6));
@@ -429,10 +429,9 @@ function sceneFuneral() {
   const att = [...Array(9)].map((_, i) => { const h = makeHero({ armor: 0x22161a, cloth: 0x5a0808, eyes: [9, .6, .3], blade: [3, .4, .2], trim: 0x5a2020 }); h.g.scale.setScalar(1.2); h.g.visible = false; sc.add(h.g); return { h, sx: 24 + i * 2.4 + R() * 2, tx: -5.5 + i * 1.35, z: -.5 + R() * 6.5, p: R() * 6 }; });
   const cam = new THREE.PerspectiveCamera(50, W / H, .1, 2500);
   const crt = new THREE.WebGLCubeRenderTarget(256, { type: THREE.HalfFloatType }), cc = new THREE.CubeCamera(1, 3000, crt); cc.position.set(0, 1.5, -20);
-  water.visible = false; cc.update(renderer, sc); water.visible = true; water.material.envMap = crt.texture;
+  water.visible = false; cc.update(renderer, sc); water.visible = true; water.material.envMap = crt.texture; water.material.needsUpdate = true;
   const cA = new THREE.Color(0xb4c8ff), cB = new THREE.Color(0xff4530), hA = new THREE.Color(0x44579c), hB = new THREE.Color(0xa01c1c);
   function update(t, lt, ka) {
-    water.material.normalMap.offset.set(t * .008, t * .015);
     const red = clamp(ka / .35);
     sc.fog.color.copy(fogA).lerp(fogB, red); ml.color.copy(cA).lerp(cB, red); hemi.color.copy(hA).lerp(hB, red);
     sky.material.uniforms.mid.value.set(0x101a48).lerp(new THREE.Color(0x3a0508), red); sky.material.uniforms.hor.value.set(0x56659c).lerp(new THREE.Color(0xb02a18), red);
