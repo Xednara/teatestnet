@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Baut das animierte WoW-TikTok-Video (v2).
+"""Baut das animierte WoW-TikTok-Video (v3, 3D-Szenen).
 
 Ablauf:
   1. Sprecherstimme pro Satz mit Piper-TTS erzeugen
   2. Timeline (Szenen, Wort-Timings, Events) berechnen -> timeline.json
   3. Frames im Browser-Canvas rendern (render.js / index.html, Playwright)
   4. Musik + Soundeffekte synthetisieren, mit Stimme mischen
-  5. Muxen -> wow_fakten_v2.mp4 (mit Stimme) und wow_fakten_v2_ohne_stimme.mp4
+  5. Muxen -> wow_fakten_v3_3d.mp4 (mit Stimme) und wow_fakten_v3_3d_ohne_stimme.mp4
 
 Aufruf: python3 build.py --voice /pfad/de-thorsten-low.onnx
 """
@@ -373,7 +373,7 @@ def main():
                        check=True)
 
     print("3/4 Audio mischen ...")
-    for with_voice, name in ((True, "wow_fakten_v2.mp4"), (False, "wow_fakten_v2_ohne_stimme.mp4")):
+    for with_voice, name in ((True, "wow_fakten_v3_3d.mp4"), (False, "wow_fakten_v3_3d_ohne_stimme.mp4")):
         wav = os.path.join(TMP, f"audio_{int(with_voice)}.wav")
         write_wav(wav, mix(tl, vt, with_voice))
         print(f"4/4 Muxen -> {name}")
